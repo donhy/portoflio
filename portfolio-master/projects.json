@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "name": "Python",
+      "description": "RANDOM DATA",
+      "image": "images/projects/animix.svg",
+      "github": "#", 
+      "demo": "#",
+      "categories": ["python", "sql"]
+    },
+    { 
+      "name": "SQL",
+        "description": "RANDOM DATA",
+        "image": "images/projects/animix.svg",
+        "github": "#", 
+        "demo": "#",
+        "categories": ["sql"]
+      },     {
+        "name": "Tableau",
+        "description": "RANDOM DATA",
+        "image": "images/projects/animix.svg",
+        "github": "#", 
+        "demo": "#",
+        "categories": ["tableau"]
+      }
+  ]
+}

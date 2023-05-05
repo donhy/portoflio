@@ -1,0 +1,29 @@
+{
+    "projects": [
+    {
+      "name": "Yelp, Customer Trend Analysis ",
+      "description": "◼ Performed explanatory data analysis across four datasets: reviews, businesses, pictures, and areas to analyze users trend and impact among local businesses. <br> ◼ Gathered and documented analytical process, limitations, key findings, and metrics – found that users with “elite status” have a positive correlation on the popularity of local businesses. <br>  (SQL, NumPy, Pandas, Tableau, Python)",
+      "image": "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGRhdGElMjBhbmFseXNpc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "github": "#", 
+      "demo": "#",
+      "tech": "",
+      "categories": ["python", "sql"]
+    },
+    {  
+      "name": "Door Dash, Delivery Dataset Analysis ",
+      "description": "◼ Analyzed one month worth of sample delivery data in order to identify issues and propose solutions on how to improve the company.",
+      "image": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1612&q=80s",
+      "github": "#", 
+      "demo": "#",
+      "categories": ["sql"]
+      },     
+      {
+        "name": "Rock Solid Industrial Parts – IT Strategy (Excel) ",
+        "description": "◼ Determined a strategy to ensure a profitable future by improving the efficiency and effectiveness of the company’s warehouse operations, sales procedures, distribution procedures, and technology infrastructure. ",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+        "github": "#", 
+        "demo": "#",
+        "categories": ["tableau"]
+      }
+  ]
+}

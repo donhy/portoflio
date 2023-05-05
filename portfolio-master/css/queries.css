@@ -1,0 +1,316 @@
+/* BELOW 1504 */
+
+@media (max-width: 94em) {
+  .heading {
+    font-size: 4rem;
+  }
+
+  .work__container {
+    grid-template-columns: repeat(2, max-content);
+  }
+
+  .work__img {
+    width: 35rem;
+  }
+
+  .title--lines {
+    max-width: 120rem;
+  }
+
+  .hero__container {
+    max-width: 120rem;
+  }
+
+  .hero__subheading {
+    font-size: 2.4rem;
+  }
+
+  .hero__heading {
+    font-size: 4.4rem;
+  }
+
+  .hero__heading--secondary {
+    font-size: 2rem;
+  }
+
+  .hero__link:link,
+  .hero__link:visited {
+    font-size: 2.8rem;
+  }
+
+  .hero__list::after {
+    height: 5rem;
+  }
+
+  .hero__wave svg {
+    height: 250px;
+  }
+
+  .about__container,
+  .projects__container {
+    max-width: 112rem;
+  }
+
+  .services__container {
+    grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+  }
+
+
+}
+
+/* BELOW 1248px */
+
+@media (max-width: 78em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .header__nav {
+    padding: 0 3.2rem;
+  }
+
+  .work__container {
+    grid-template-columns: repeat(1, max-content);
+  }
+
+  .hero__container {
+    max-width: 110rem;
+    margin-top: 12rem;
+    padding: 0 4.8rem;
+    column-gap: 2.4rem;
+  }
+
+.mobile--hidden {
+  display: none;
+}
+
+  .hero__socials {
+    left: 4.8rem;
+  }
+
+  .about__container {
+    max-width: 100rem;
+    padding: 0 3.2rem;
+    column-gap: 3.2rem;
+  }
+
+  .projects__container {
+    max-width: 100rem;
+    padding: 0 3.2rem;
+  }
+
+  .about__img img {
+    width: 90%;
+  }
+}
+
+/* BELOW 1024px */
+
+@media (max-width: 64em) {
+  html {
+    font-size: 50%;
+  }
+
+  .title--lines {
+    column-gap: 1.2rem;
+  }
+
+  /* Mobile Nav */
+  .hamburger {
+    display: block;
+    z-index: 9999;
+  }
+
+  .header__list {
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .header__list {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .header__link:link,
+  .header__link:visited {
+    font-size: 3rem;
+  }
+
+  .hero__wave {
+    bottom: 20%;
+  }
+
+  .hero__background {
+    height: 20%;
+  }
+
+  .project {
+    column-gap: 4.8rem;
+  }
+
+  .project__name {
+    font-size: 2.6rem;
+  }
+}
+
+/* BELOW 854 */
+
+@media (max-width: 54em) {
+  :root {
+    --section-padding: 4.8rem;
+  }
+
+  .heading {
+    font-size: 3.4rem;
+  }
+
+  .hero__heading {
+    font-size: 4rem;
+  }
+
+  .hero__heading--secondary {
+    font-size: 2rem;
+  }
+
+  .title--lines {
+    padding: 2.4rem;
+  }
+
+  .hero__container {
+    max-width: 100rem;
+  }
+
+  .about__container {
+    max-width: 90rem;
+    column-gap: 1.2rem;
+  }
+
+  .projects__container {
+    max-width: 90rem;
+  }
+
+  .project__name {
+    font-size: 2.4rem;
+  }
+}
+
+/* BELOW 768px */
+
+@media (max-width: 48em) {
+  .title--lines {
+    margin-bottom: 2.4rem;
+    padding: 1.2rem;
+  }
+
+  .hero__container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    row-gap: 4.8rem;
+    margin-top: 6.4rem;
+  }
+
+  .hero__wave {
+    bottom: 35%;
+  }
+
+  .hero__wave svg {
+    height: 180px;
+  }
+
+  .hero__background {
+    height: 35%;
+  }
+
+  .about__container {
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+
+  .about__img {
+    text-align: center;
+  }
+
+  .about__img img {
+    width: 50%;
+  }
+
+  .skills__logos {
+    max-width: 30rem;
+  }
+
+  .contact__container {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 42em) {
+  .project {
+    grid-template-columns: 1fr;
+    row-gap: 3.2rem;
+  }
+
+  .project__img-link {
+    grid-row: 2;
+  }
+}
+
+/* BELOW 512px */
+
+@media (max-width: 32em) {
+  .header__nav {
+    padding: 0 1.6rem;
+  }
+
+  .hero__container {
+    padding: 0;
+  }
+
+  .hero__socials {
+    left: 3.2rem;
+  }
+
+  .hero__wave svg {
+    height: 150px;
+  }
+
+  .hero__wave {
+    bottom: 45%;
+  }
+
+  .hero__background {
+    height: 45%;
+  }
+
+  .project__img-link {
+    grid-row: 2;
+  }
+
+  .services__modal-content {
+    width: 300px;
+    padding: 4.5rem 2.5rem 2.5rem;
+  }
+
+  .services__modal-description {
+    padding: 0 1rem;
+  }
+}
